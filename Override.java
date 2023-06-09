@@ -1,13 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author admin
- */
 public class Override {
-    
+    void run(){System.out.println("Vehical is running");}
+}
+//create child class
+class byke extends Override
+{
+public static void main(String[]args)
+{
+Bike obj=new Bike();
+//calling the method with child class instance
+obj.run();
+}
 }
