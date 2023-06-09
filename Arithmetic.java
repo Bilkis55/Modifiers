@@ -1,13 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import java.util.Scanner ;
+public class Arithmetic1
+{
+public static void main(String[] args)
+{
+             int first,second,add,sub,mul;
+	float div;
+	
+	Scanner arithmetic=new Scanner(System.in);
+	
+	System.out.println("Enter Two Numbers : " );
+		
+	first=arithmetic.nextInt();
+	second=arithmetic.nextInt();
 
-/**
- *
- * @author Admin
- */
-public class Arithmetic {
-    
+	
+	add=first+second;
+	sub=first-second;
+	mul=first*second;
+	div=(float) first/second;
+	
+	System.out.println("Addition of two numbers are :" + add);
+	System.out.println("Sustraction of two number : " + sub);
+	System.out.println("Multiplication of two number :" + mul);
+	System.out.println("Division of two number : " + div);
+}
 }
