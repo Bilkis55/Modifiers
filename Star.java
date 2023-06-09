@@ -1,13 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+public class StarDiamond
+{
+	public static void main(String[]args)
+        {
 
-/**
- *
- * @author Admin
- */
-public class Star {
-    
+	int n=39,l,i,j,k;
+
+	l=10;
+
+	for(i=1;i<l;i++)
+	{
+	for(j=1;j<=n;j++)
+	{
+	System.out.print(" ");
+	}
+	for(k=1;k<=l;k++)
+	{
+	System.out.print(" *");
+	}
+	System.out.println("");
+	n--;
+	}
+	
+	
+}
 }
